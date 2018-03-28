@@ -240,6 +240,15 @@ body {
   padding: 0px 35px 0 35px;
 }
 
+a {
+  color: #68696b;
+}
+
+a:visited {
+  text-decoration: none;
+  
+}
+
 h2 {
   font-size: 26px;
 }
@@ -250,6 +259,8 @@ h3 {
 }
 
 strong {
+  color: #68696b;
+  font-weight: bold;
   font-size: 16px;
 }
 
