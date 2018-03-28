@@ -67,10 +67,130 @@ body {
   height: 100vh;
 }
 
-.profile-container {
-  display: grid;
-  grid-template-columns: 1fr 1.25fr;
-  grid-gap: 150px;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .profile-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 150px;
+  }
+  
+  .profile-container > img {
+    justify-self: center;
+  }
+  
+  .profile-major {
+    margin-bottom: 25px;
+  }
+  
+  .profile-name {
+    margin-bottom: 25px;
+  }
+  
+  .resume-block-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .resume-block-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .profile-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 150px;
+  }
+  
+  .profile-container > img {
+    justify-self: center;
+  }
+  
+  .profile-major {
+    margin-bottom: 25px;
+  }
+  
+  .profile-name {
+    margin-bottom: 25px;
+  }
+  
+  .resume-block-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .resume-block-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .profile-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 150px;
+  }
+  
+  .profile-container > img {
+    justify-self: center;
+  }
+  
+  .profile-major {
+    margin-bottom: 25px;
+  }
+  
+  .profile-name {
+    margin-bottom: 25px;
+  }
+  
+  .resume-block-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .resume-block-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .profile-container {
+    display: grid;
+    grid-template-columns: 1fr 1.25fr;
+    grid-gap: 150px;
+  }
+  
+  .resume-block-container {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    grid-gap: 2em;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .profile-container {
+    display: grid;
+    grid-template-columns: 1fr 1.25fr;
+    grid-gap: 150px;
+  }
+  
+  .resume-block-container {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    grid-gap: 2em;
+  }
 }
 
 .profile-contact {
@@ -154,12 +274,6 @@ svg {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 4em;
-}
-
-.resume-block-container {
-  display: grid;
-  grid-template-columns: 0.4fr 1fr;
-  grid-gap: 2em;
 }
 
 .resume-block {
